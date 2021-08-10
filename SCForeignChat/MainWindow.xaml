@@ -1,0 +1,38 @@
+﻿<Window x:Class="SCForeignChat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SCForeignChat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <DockPanel VerticalAlignment="Stretch" LastChildFill="True">
+        <Grid DockPanel.Dock="Bottom" MinHeight="50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0" Margin="3" TextChanged="TextBox_TextChanged" x:Name="translateText"/>
+            <TextBlock Grid.Column="1" Margin="3" x:Name="translateField"/>
+        </Grid>
+        <TabControl ItemsSource="{Binding Manager.Channels}" VerticalAlignment="Stretch" Margin="5">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ChannelName}"/>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+            <TabControl.ContentTemplate>
+                <DataTemplate>
+                    <ListBox ItemsSource="{Binding Messages}" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding OutText}" Margin="3" TextWrapping="Wrap" HorizontalAlignment="Stretch" ToolTip="{Binding OriginalText}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+        </TabControl>
+    </DockPanel>
+</Window>

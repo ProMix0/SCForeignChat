@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "XUnity.AutoTranslator.Plugin.Core/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/XUnity.AutoTranslator.Plugin.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net35/XUnity.AutoTranslator.Plugin.Core.dll": {}
+        }
+      },
+      "XUnity.AutoTranslator.Plugin.ExtProtocol/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": {}
+        },
+        "runtime": {
+          "lib/net35/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XUnity.AutoTranslator.Plugin.Core/4.7.0": {
+      "sha512": "WT9C9y0M4/YWaG9cncREvsE6IQlVvg5IhlEvAbr4RQuyY6tan7X+Nj8A8SEwSBq9X0QEwipsW510Qa3S4Gli3g==",
+      "type": "package",
+      "path": "xunity.autotranslator.plugin.core/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/XUnity.AutoTranslator.Plugin.Core.dll",
+        "lib/net35/XUnity.AutoTranslator.Plugin.Core.xml",
+        "xunity.autotranslator.plugin.core.4.7.0.nupkg.sha512",
+        "xunity.autotranslator.plugin.core.nuspec"
+      ]
+    },
+    "XUnity.AutoTranslator.Plugin.ExtProtocol/1.0.0": {
+      "sha512": "2LxtyNFayvh8ctNUOCpPDrOmg2enoU0xy4gOdRK5lqoYjuDd1PJ53NEZpc3ovpb9Gs6YbTqFDyY/KNRSSpEYtw==",
+      "type": "package",
+      "path": "xunity.autotranslator.plugin.extprotocol/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/XUnity.AutoTranslator.Plugin.ExtProtocol.dll",
+        "lib/net35/XUnity.AutoTranslator.Plugin.ExtProtocol.xml",
+        "xunity.autotranslator.plugin.extprotocol.1.0.0.nupkg.sha512",
+        "xunity.autotranslator.plugin.extprotocol.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "XUnity.AutoTranslator.Plugin.Core >= 4.7.0",
+      "XUnity.AutoTranslator.Plugin.ExtProtocol >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Misha\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\SCForeignChat\\TranslateTest\\TranslateTest.csproj",
+      "projectName": "TranslateTest",
+      "projectPath": "D:\\Projects\\SCForeignChat\\TranslateTest\\TranslateTest.csproj",
+      "packagesPath": "C:\\Users\\Misha\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\SCForeignChat\\TranslateTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Misha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "XUnity.AutoTranslator.Plugin.Core": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "XUnity.AutoTranslator.Plugin.ExtProtocol": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"XUnity.AutoTranslator.Plugin.Core 4.7.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "XUnity.AutoTranslator.Plugin.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"XUnity.AutoTranslator.Plugin.ExtProtocol 1.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "XUnity.AutoTranslator.Plugin.ExtProtocol",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

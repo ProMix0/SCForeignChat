@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "KipbfeHF9Oz6guh/Gin1Kg7HwzXYwL3zcurlcAMeDgWS2LJO9VDqVb/WeryBDiyfR4CJ76iXQlBdrAHCNn97wQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\SCForeignChat\\TranslateTest\\TranslateTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Misha\\.nuget\\packages\\xunity.autotranslator.plugin.core\\4.7.0\\xunity.autotranslator.plugin.core.4.7.0.nupkg.sha512",
+    "C:\\Users\\Misha\\.nuget\\packages\\xunity.autotranslator.plugin.extprotocol\\1.0.0\\xunity.autotranslator.plugin.extprotocol.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"XUnity.AutoTranslator.Plugin.Core 4.7.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "XUnity.AutoTranslator.Plugin.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"XUnity.AutoTranslator.Plugin.ExtProtocol 1.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "XUnity.AutoTranslator.Plugin.ExtProtocol",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

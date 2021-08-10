@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XUnity.AutoTranslator.Plugin.Core" Version="4.7.0" />
+    <PackageReference Include="XUnity.AutoTranslator.Plugin.ExtProtocol" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
